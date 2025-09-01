@@ -17,6 +17,7 @@ This project is a Streamlit web application that implements a Retrieval-Augmente
 
 ## Installation
 
+
 ### Prerequisites
 
 - Python 3.8 or above
@@ -27,4 +28,21 @@ This project is a Streamlit web application that implements a Retrieval-Augmente
 
 1. Clone the repository:
 
+git clone <repository-url>
+cd <repository-folder>
+
+2.  Create and activate a Python virtual environment:
+
+python -m venv venv
+source venv/bin/activate 
+
+3. Install the required dependencies:
+
+pip install -r requirements.txt
+
+4.Configure your Astra DB application token, database ID, and Groq API key in the app.py file or set them as environment variables for better security.
+
+Run the Streamlit app locally:
+
+streamlit run app.py
 
